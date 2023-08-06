@@ -1,0 +1,52 @@
+.wrapper {
+  margin: 0 auto;
+  width: 75%;
+  max-width: 2050px;
+}
+@media (max-width: 1320px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  animation: fade-in 2s ease-in;
+}
+
+img {
+  width: 100%;
+}
+
+.background {
+  background: rgb(6, 0, 34);
+  background: radial-gradient(circle, rgb(6, 0, 34) 0%, rgb(30, 11, 77) 93%);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "letter-gothic-std";
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: white;
+  font-size: clamp(2rem, 9vw, 10rem);
+  padding: 10%;
+  margin: 0;
+}
+
+h3 {
+  font-family: letter-gothic-std, monospace;
+  font-weight: 400;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+p,
+a {
+  font-family: letter-gothic-std, monospace;
+  font-weight: 700;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */

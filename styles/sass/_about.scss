@@ -1,0 +1,28 @@
+.aboutContainer {
+    padding-top: clamp(4rem, 10vw, 20rem);
+    margin-left: clamp(3rem, 8vw, 10rem);
+    display: flex;
+    border-left: 1px solid black;
+    height: 100%;
+    .aboutText {
+        padding-bottom: clamp(10rem, 8vw, 20rem);
+        padding-right: clamp(1rem, 4vw, 6rem);
+        text-align: left;
+        width: 75%;
+        height: 100%;
+        h2,
+        p {
+            padding-left: clamp(1rem, 3vw, 7rem);
+        }
+    }
+    .aboutImgContainer {
+        height: 90vh;
+        width: 100%;
+        padding-bottom: clamp(10rem, 8vw, 20rem);
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

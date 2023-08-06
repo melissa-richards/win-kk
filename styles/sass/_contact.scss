@@ -1,0 +1,27 @@
+.contactContainer {
+    border-bottom: 1px solid black;
+    display: flex;
+    margin-bottom: clamp(1rem, 5vw, 7rem);
+    .contactImgContainer {
+        width: 80%;
+        padding: clamp(2rem, 5vw, 7rem);
+        p {
+        margin-bottom: 0;
+        }
+        a {
+            font-weight: 700;
+        }
+    }
+    .contactText {
+        padding-top: clamp(1rem, 5vw, 7rem);
+        padding-left: clamp(4rem, 8vw, 10rem);
+        padding-right: clamp(1rem, 8vw, 7rem);
+        border-left: 1px solid black;
+        h2 {
+            margin: 0;
+        }
+        p {
+            padding-top: clamp(1rem, 2.5vw, 5rem);
+        }
+    }
+}

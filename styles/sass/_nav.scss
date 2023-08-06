@@ -1,0 +1,25 @@
+.navHamburger {
+    border-top: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    ;
+    ul {
+        display: flex;
+        padding: 0;
+        padding-inline-start: 0px;
+        li {
+            width: 25%;
+            padding: 1.55rem;
+            border-left: 1px solid $primary-color;
+
+            &:not(:last-child) {
+                border-right: 1px solid $primary-color;
+            }
+        }
+
+        a {
+            font-family: $secondary-title-font;
+            text-transform: uppercase;
+        }
+    }
+}
+

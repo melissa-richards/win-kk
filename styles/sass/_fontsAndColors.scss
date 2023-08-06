@@ -1,0 +1,30 @@
+// FONTS
+// Body Font
+$primary-body-font: 'Open Sans', sans-serif;
+$primary-body-font3: 'Damion',cursive;
+
+
+// Title Font
+$primary-title-font: 'Michelia';
+$secondary-title-font: 'Michelia';
+
+// COLORS
+$primary-color: rgb(0, 0, 0);
+
+@font-face {
+    font-family: 'Michelia';
+    src: url('/assets/fonts/Michelia.eot');
+    /* IE9 Compat Modes */
+    src: url('/assets/fonts/Michelia.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('/assets/fonts/Michelia.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('/assets/fonts/Michelia.woff') format('woff'),
+        /* Pretty Modern Browsers */
+        url('/assets/fonts/Michelia.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('/assets/fonts/Michelia.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,93 @@
+@import 'about';
+@import 'contact';
+@import 'fontsAndColors';
+@import 'landing';
+@import 'nav';
+@import 'setup';
+@import 'buttons';
+@import 'shop';
+@import 'commission';
+@import 'footer';
+
+// div,
+// a,
+// p,
+// h1,
+// h2,
+// img,
+// li,
+// ul,
+// button,
+// header,
+// footer {
+//     border: solid 1px red;
+// }
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 2050px;
+}
+
+body {
+    overflow-x: hidden;
+    animation: fade-in 2s ease-in;
+}
+
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.background {
+    background-color: rgb(161, 210, 221, 0.3);
+    position: relative;
+}
+
+h1 {
+        font-family: $primary-title-font;
+        font-weight: 400;
+        color: $primary-color;
+        letter-spacing: -1px;
+        line-height: clamp(.8em, 3vw, 3em);
+        font-size: clamp(2em, 8vw, 8em);
+        margin: 0;
+    }
+
+h2 {
+        font-family: $primary-title-font;
+        color: $primary-color;
+        font-size: clamp(1em, 5vw, 7em);
+        letter-spacing: 5px;
+    }
+
+h3 {
+    font-family: $primary-title-font;
+    color: $primary-color;
+    font-size: clamp(1em, 3vw, 5em);
+    letter-spacing: 5px;
+}
+
+p,
+a {
+    font-family: $primary-body-font;
+    font-weight: 400;
+    font-size: clamp(.8em, 1.3vw, 1.8em);
+    color: $primary-color;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+
+    li {
+        list-style-type: none;
+        text-align: center;
+        font-size: clamp(1em, 2vw, 5em);
+        a{
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.marketWrapper {
+    border-top: 1px solid black;
+    width: 100%;
+    .marketCircle {
+        width: 100vw;
+        height: 100vw;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 50%;
+        align-items: center;
+        .marketTitleCircle{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            width: 20vw;
+            height: 20vw;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+        .marketImgContainer{
+            margin-top: clamp(1rem, 3vw, 7rem);
+            margin-bottom: clamp(1rem, 3vw, 7rem);
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            .marketImage {
+                width: 70%;
+                align-self: center;
+            }
+        }
+    }
+}
